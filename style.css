@@ -58,7 +58,7 @@ body {
 /* hero section start from here */
 .hero-section-wrapper {
   max-width: 100%;
-  background-image: url("/Picture/spitfire\ home\ pic\ 1.jpg");
+  background-image: url("Picture/spitfire\ home\ pic\ 1.jpg");
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
