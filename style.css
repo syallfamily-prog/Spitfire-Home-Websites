@@ -3,13 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: "MyDIN"; /* This is the new name you can use in your HTML */
-  src: url("../fonts/Fontspring-DEMO-dpt47-iF663b3053b80fd.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
 
 /* Apply it */
 body {
@@ -21,9 +14,7 @@ body {
   margin: auto;
 }
 /* header starts from here */
-.mobile-header {
-  display: none;
-}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -31,6 +22,7 @@ body {
   text-align: center;
   align-items: center;
   gap: 0;
+  height: 17vh;
 }
 .header-menu ul,
 .header-icons {
@@ -40,12 +32,13 @@ body {
   text-align: center;
   align-items: center;
   gap: 35px;
+  padding-left: 25px;
 }
 .header-menu ul li {
   list-style: none;
   text-transform: uppercase;
   color: #2a312e;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 13.5px;
   line-height: 14px;
 }
@@ -70,7 +63,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
-  height: 610px;
+  height: 620px;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -133,6 +126,7 @@ body {
   align-items: top;
   gap: 36px;
   margin: 5rem 0;
+  padding-left: 3px;
 }
 .award-winning-section {
   flex: 0 0 23%;
@@ -144,10 +138,13 @@ body {
 }
 .award-winning-first-section-heading {
   font-size: 24px;
+  padding-left: 20px;
 }
 .award-winning-first-section-subheading {
   margin: 1.5rem 0;
+  padding-left: 20px;
 }
+
 .award-winning-first-section-subheading {
   color: #484a46;
   font-size: 17px;
